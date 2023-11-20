@@ -6,7 +6,11 @@ import Advice from "./Advice";
 
 const AdviceCard = () => {
   const url = "https://api.adviceslip.com/advice";
-  const [advice, setAdvice] = useState(null);
+  const [advice, setAdvice] = useState({
+    id: 1,
+    advice:
+      "Sylus is great and cool😂Just joking. See advice by clicking the link below",
+  });
   const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
@@ -18,6 +22,10 @@ const AdviceCard = () => {
     const res = await fetch(url);
     const data = await res.json();
     setAdvice(data.slip);
+    console.log(advice);
+    /* console.log(data.slip); */
+    setAdvice(data.slip);
+    /* console.log(advice); */
     setIsLoading(false);
   };
 
@@ -31,7 +39,7 @@ const AdviceCard = () => {
 
   return (
     <div className="flex-col relative items-center bg-card max-w-xl p-8 rounded-xl md:hover:scale-105 ease-in duration-200 hover:shadow-lg cursor-pointer hover:shadow-title">
-      <AdviceTitle title={advice.title} />
+      <AdviceTitle title={advice.id} />
       <Advice advice={advice.advice} />
       <div className="h-[1px] mt-8 bg-gray-600"></div>
       <div className="flex justify-center p-8">
