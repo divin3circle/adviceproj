@@ -31,7 +31,7 @@ const AdviceCard = () => {
 
   return (
     <div className="flex-col relative items-center bg-card max-w-xl p-8 rounded-xl md:hover:scale-105 ease-in duration-200 hover:shadow-lg cursor-pointer hover:shadow-title">
-      <AdviceTitle title={advice?.id} />
+      <AdviceTitle title={advice.title} />
       <Advice advice={advice.advice} />
       <div className="h-[1px] mt-8 bg-gray-600"></div>
       <div className="flex justify-center p-8">
