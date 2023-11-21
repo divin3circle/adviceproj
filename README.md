@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-advice-generator-page-using-react-and-tailwind-css-qkjQgtAIqj)
+- Live Site URL: [Add live site URL here](https://advice-syt-project.netlify.app/)
 
 ## My process
 
