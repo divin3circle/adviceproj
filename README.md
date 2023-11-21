@@ -91,5 +91,5 @@ One of the areas I feel I need to improve on, in the future is handling exceptio
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@divin3circle](https://www.frontendmentor.io/profile/divin3circle)
+- Twitter - [@Silasabel5](https://www.twitter.com/Silasabel5)
